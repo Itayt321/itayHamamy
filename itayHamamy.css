@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh;
+    width: 100%;
+}
+
+.row {
+    min-height: 50px;
+    text-align: center;
+}
+
+#logo{
+    max-width: 250px;
+    margin-top: 12px;
+}
+
+#header,#middleTop,#middleBottom,#projects{
+    color:white;
+    font-size: 12pt;
+}
+
+span{
+    font-size: 16pt;
+    /* border-bottom:2px white solid;
+    font-style: oblique; */
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .floatTel {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d32553;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
+  .my-float {
+    margin-top: 16px;
+    margin-left: 17px;
+  }
